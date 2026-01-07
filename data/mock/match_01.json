@@ -1,0 +1,25 @@
+{
+  "matchId": "m-0001",
+  "map": "Ascent",
+  "durationSeconds": 1800,
+  "teams": [
+    {
+      "teamId": "t1",
+      "name": "G2",
+      "score": 13,
+      "players": [
+        {"playerId": "p1", "name": "oneleaf", "agent": "Jett", "kills": 18, "deaths": 10, "assists": 4},
+        {"playerId": "p2", "name": "jaw", "agent": "Sova", "kills": 10, "deaths": 12, "assists": 6}
+      ]
+    },
+    {
+      "teamId": "t2",
+      "name": "SEN",
+      "score": 11,
+      "players": [
+        {"playerId": "p3", "name": "narr", "agent": "Killjoy", "kills": 8, "deaths": 14, "assists": 9},
+        {"playerId": "p4", "name": "ban", "agent": "Omen", "kills": 15, "deaths": 11, "assists": 2}
+      ]
+    }
+  ]
+}

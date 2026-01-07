@@ -1,0 +1,24 @@
+{
+  "matchId": "m-0003",
+  "map": "Split",
+  "durationSeconds": 1700,
+  "teams": [
+    {
+      "teamId": "t5",
+      "name": "AlphaTeam",
+      "score": 13,
+      "players": [
+        {"playerId": "p7", "name": "Ball", "agent": "KAY/O", "kills": 11, "deaths": 3, "assists": 3},
+        {"playerId": "p7", "name": "BallDup", "agent": "KAY/O", "kills": 2, "deaths": 6, "assists": 1}
+      ]
+    },
+    {
+      "teamId": "t6",
+      "name": "BetaTeam",
+      "score": 10,
+      "players": [
+        {"playerId": "p8","name": "Solo", "agent": "Phoenix", "kills": 9, "deaths": 11, "assists": 0}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "matchId": "m-0002",
+  "map": "Bind",
+  "durationSeconds": 1500,
+  "teams": [
+    {
+      "teamId": "t3",
+      "name": "C9",
+      "score": 8,
+      "players": [
+        {"playerId": "p5", "name": "Echo", "agent": "Astra", "kills": 12, "deaths": 9, "assists": 3}
+      ]
+    },
+    {
+      "teamId": "t4",
+      "name": "EG",
+      "score": 13,
+      "players": [
+        {"playerId": "p6", "name": "Pot", "agent": "Omen", "kills": 20, "deaths": 7, "assists": 5}
+      ]
+    }
+  ]
+}
