@@ -25,7 +25,7 @@ This repository is intended to demonstrate cross-language data pipelines, schema
 
 ---
 
-## How to Use (Windows PowerShell)
+## Setup (Windows PowerShell)
 
 ```powershell
 # Build Swift CLI (requires Swift toolchain)
@@ -46,3 +46,19 @@ python transform.py --input ..\data\cleaned --output ..\data\analytics
 Outputs:
 - `data/cleaned/` — cleaned JSON per match
 - `data/analytics/` — `player_stats.csv` and `player_stats.parquet`
+
+## Setup (Docker)
+
+### Prerequisites
+- Docker
+- Docker Compose (if using `docker compose`)
+
+### Build and Run the Pipeline
+
+From the project root:
+
+```bash
+docker build -t pulse-pipeline .
+docker run --rm \
+  -v $(pwd)/data:/app/data \
+  pulse-pipeline
