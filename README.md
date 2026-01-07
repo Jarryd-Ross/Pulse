@@ -10,7 +10,7 @@ cd swift-ingest
 swift build -c release
 
 # Run locally
-.\swift-ingest\.build\release\swift-ingest.exe --input ..\data\mock --output ..\data\cleaned --strict
+.\swift-ingest\.build\release\swift-ingest.exe --input ..\data\mock --output ..\data\cleaned 
 
 # Python transform
 cd ..\python-transform
