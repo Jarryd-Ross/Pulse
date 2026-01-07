@@ -13,6 +13,5 @@ let package = Package(
             name: "swift-ingest",
             path: "Sources/swift-ingest"
         ),
-        // No test target included in the container build; keep package simple.
     ]
 )
