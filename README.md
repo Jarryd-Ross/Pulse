@@ -1,8 +1,31 @@
-# Valorant Match Ingest & Transform
+# Valorant Match Ingest & Transform Pipeline
 
-This project is a small end-to-end data engineering demo showcasing a Swift-based ingestion CLI that validates and cleans mock Valorant match JSON files, and a Python transformation step that produces CSV and Parquet analytics.
+A small data engineering demo project that simulates a realistic analytics pipeline for Valorant match data.
+The purpose of this project was to find an entertaining way to practice the fundamentals of data engineering and expose myself to Swift. 
 
-Quick start (Windows PowerShell):
+The project consists of:
+- A **Swift-based ingestion CLI** that validates, normalizes, and cleans raw match JSON files
+- A **Python transformation stage** that converts cleaned data into analytics-ready datasets in CSV and Parquet formats
+
+This repository is intended to demonstrate cross-language data pipelines, schema validation, and analytics-oriented data modeling.
+
+---
+
+## Project Overview
+
+**Ingestion (Swift)**
+- Reads mock Valorant match JSON files
+- Performs basic validation and cleaning
+- Outputs normalized per-match JSON
+
+**Transformation (Python)**
+- Aggregates cleaned match data
+- Produces player-level analytics datasets
+- Writes outputs in CSV and Parquet formats
+
+---
+
+## How to Use (Windows PowerShell)
 
 ```powershell
 # Build Swift CLI (requires Swift toolchain)
